@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-05T20:33:29 IST" name="Default suite" finished-at="2022-06-05T20:33:29 IST" duration-ms="83">
+    <groups>
+    </groups>
+    <test started-at="2022-06-05T20:33:29 IST" name="Default test" finished-at="2022-06-05T20:33:29 IST" duration-ms="83">
+      <class name="array.AddingArrays">
+        <test-method signature="create()[pri:0, instance:array.AddingArrays@c03cf28]" started-at="2022-06-05T20:33:29 IST" name="create" finished-at="2022-06-05T20:33:29 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method signature="modify()[pri:0, instance:array.AddingArrays@c03cf28]" started-at="2022-06-05T20:33:29 IST" name="modify" finished-at="2022-06-05T20:33:29 IST" depends-on-methods="array.AddingArrays.create" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify -->
+        <test-method signature="delete()[pri:0, instance:array.AddingArrays@c03cf28]" started-at="2022-06-05T20:33:29 IST" name="delete" finished-at="2022-06-05T20:33:29 IST" depends-on-methods="array.AddingArrays.modify" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- array.AddingArrays -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
