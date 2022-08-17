@@ -14,5 +14,6 @@ public class OrganizationDeleteTest
 	public void createTest()
 	{
 		System.out.println("organization deleted 2");
+		System.out.println("organization");
 	}
 }
